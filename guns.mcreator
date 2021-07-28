@@ -1,0 +1,119 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PaperCartridge",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "paper_cartridge"
+    },
+    {
+      "name": "Musket",
+      "type": "gun",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket"
+    },
+    {
+      "name": "MusketBottom",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket_bottom"
+    },
+    {
+      "name": "MusketBottomRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket_bottom_recipe"
+    },
+    {
+      "name": "MusketBarrel",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket_barrel"
+    },
+    {
+      "name": "MusketRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket_recipe"
+    },
+    {
+      "name": "MusketBarrelRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket_barrel_recipe"
+    },
+    {
+      "name": "PaperCartridgeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "paper_cartridge_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "musket_fire",
+      "files": [
+        "gun_fire-goodsoundforyou-820112263"
+      ],
+      "category": "player",
+      "subtitle": "When a musket shoots"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.guns.musket": "Musket",
+      "item.guns.musket_bottom": "Musket Handle",
+      "item.guns.musket_barrel": "Musket Barrel",
+      "item.guns.paper_cartridge": "Bullet",
+      "subtitles.musket_fire": "When a musket shoots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "guns",
+    "modName": "Guns",
+    "version": "1.0.0",
+    "author": "USER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.guns",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

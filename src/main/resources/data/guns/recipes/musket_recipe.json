@@ -1,0 +1,16 @@
+{
+  "group": "guns",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guns:musket_barrel"
+    },
+    {
+      "item": "guns:musket_bottom"
+    }
+  ],
+  "result": {
+    "item": "guns:musket",
+    "count": 1
+  }
+}

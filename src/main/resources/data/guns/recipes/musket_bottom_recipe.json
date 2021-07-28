@@ -1,0 +1,16 @@
+{
+  "group": "guns",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "guns:musket_bottom",
+    "count": 1
+  }
+}

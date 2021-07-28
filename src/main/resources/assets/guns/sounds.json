@@ -1,0 +1,12 @@
+{
+  "musket_fire": {
+    "category": "player",
+    "subtitle": "subtitles.musket_fire",
+    "sounds": [
+      {
+        "name": "guns:gun_fire-goodsoundforyou-820112263",
+        "stream": false
+      }
+    ]
+  }
+}
