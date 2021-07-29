@@ -72,6 +72,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "paper_cartridge_recipe"
+    },
+    {
+      "name": "Flintlock",
+      "type": "gun",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flintlock"
+    },
+    {
+      "name": "FlintlockRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flintlock_recipe"
     }
   ],
   "variable_elements": [],
@@ -90,6 +108,7 @@
       "item.guns.musket": "Musket",
       "item.guns.musket_bottom": "Musket Handle",
       "item.guns.musket_barrel": "Musket Barrel",
+      "item.guns.flintlock": "Flintlock",
       "item.guns.paper_cartridge": "Bullet",
       "subtitles.musket_fire": "When a musket shoots"
     }
