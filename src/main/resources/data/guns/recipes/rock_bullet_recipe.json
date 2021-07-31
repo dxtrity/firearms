@@ -1,0 +1,13 @@
+{
+  "group": "guns",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "guns:rock_bullet",
+    "count": 3
+  }
+}

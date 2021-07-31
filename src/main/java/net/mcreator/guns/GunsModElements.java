@@ -46,6 +46,7 @@ public class GunsModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public GunsModElements() {
 		sounds.put(new ResourceLocation("guns", "musket_fire"), new net.minecraft.util.SoundEvent(new ResourceLocation("guns", "musket_fire")));
+		sounds.put(new ResourceLocation("guns", "flintlock_fire"), new net.minecraft.util.SoundEvent(new ResourceLocation("guns", "flintlock_fire")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("guns").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

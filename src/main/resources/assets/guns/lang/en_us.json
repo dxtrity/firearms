@@ -1,8 +1,12 @@
 {
   "item.guns.musket": "Musket",
+  "item.guns.rock_bullet": "Rock Bullet",
   "item.guns.musket_bottom": "Musket Handle",
   "item.guns.musket_barrel": "Musket Barrel",
   "item.guns.flintlock": "Flintlock",
+  "subtitles.flintlock_fire": "",
   "item.guns.paper_cartridge": "Bullet",
+  "item.guns.spell": "Spell",
+  "item.guns.spellbook": "Spellbook",
   "subtitles.musket_fire": "When a musket shoots"
 }

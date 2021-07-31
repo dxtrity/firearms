@@ -8,5 +8,14 @@
         "stream": false
       }
     ]
+  },
+  "flintlock_fire": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "guns:zapsplat_explosions_short_small_explosion_no_tail_001_62806",
+        "stream": false
+      }
+    ]
   }
 }

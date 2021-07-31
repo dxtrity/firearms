@@ -3,35 +3,38 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "flintlock",
+    "texture": "spellbook",
     "customModelName": "Normal",
-    "name": "Flintlock",
+    "name": "Spellbook",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "CUSTOM:RockBullet"
+      "value": ""
     },
     "shootConstantly": false,
-    "usageCount": 100,
+    "usageCount": 50,
     "actionSound": {
-      "value": "CUSTOM:flintlock_fire"
+      "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "eat",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 0.7,
+    "bulletPower": 5.0,
     "bulletDamage": 2.0,
-    "bulletKnockback": 10,
+    "bulletKnockback": 5,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:RockBullet"
+      "value": "CUSTOM:Spell"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "SpellbookBulletHitsLivingEntity"
+    }
   }
 }

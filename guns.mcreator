@@ -90,6 +90,59 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "flintlock_recipe"
+    },
+    {
+      "name": "RockBullet",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_bullet"
+    },
+    {
+      "name": "RockBulletRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_bullet_recipe"
+    },
+    {
+      "name": "Spell",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spell"
+    },
+    {
+      "name": "SpellbookBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spellbook_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spellbook",
+      "type": "gun",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spellbook"
     }
   ],
   "variable_elements": [],
@@ -101,15 +154,27 @@
       ],
       "category": "player",
       "subtitle": "When a musket shoots"
+    },
+    {
+      "name": "flintlock_fire",
+      "files": [
+        "zapsplat_explosions_short_small_explosion_no_tail_001_62806"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.guns.musket": "Musket",
+      "item.guns.rock_bullet": "Rock Bullet",
       "item.guns.musket_bottom": "Musket Handle",
       "item.guns.musket_barrel": "Musket Barrel",
       "item.guns.flintlock": "Flintlock",
+      "subtitles.flintlock_fire": "",
       "item.guns.paper_cartridge": "Bullet",
+      "item.guns.spell": "Spell",
+      "item.guns.spellbook": "Spellbook",
       "subtitles.musket_fire": "When a musket shoots"
     }
   },
